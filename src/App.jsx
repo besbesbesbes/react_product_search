@@ -52,7 +52,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col gap-4 p-10 bg-slate-200 w-6/12 mx-auto border min-h-screen items-center">
+      <div className="flex flex-col gap-4 p-10 bg-slate-200 w-8/12 mx-auto border min-h-screen items-center">
         <SearchArea hdlInputChange={hdlInputChange} />
         <ProductList products={products} />
         <Paging curPage={curPage} totalPage={totalPage} hdlPage={hdlPage} />
